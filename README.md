@@ -1,3 +1,13 @@
 # Calendario-Uach
 
-Se ejecuta con el comando `npm start`
+## Instalar
+
+```sh
+npm i
+```
+
+Después
+
+```sh
+npm run dev
+```
