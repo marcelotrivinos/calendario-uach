@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"christian-kohler.npm-intellisense",
+		"mgmcdermott.vscode-language-babel",
+		"coenraads.bracket-pair-colorizer-2",
+		"visualstudioexptteam.vscodeintellicode",
+		"jpoissonnier.vscode-styled-components",
+		"lihui.vs-color-picker"
+	]
+}
