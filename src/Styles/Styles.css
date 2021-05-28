@@ -1,0 +1,114 @@
+/*#circle {
+    background-color:#ffff80;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+   /* text-align: center;*/
+   /* vertical-align:text-bottom;*/
+   /* left: 15%;
+    margin-top: 15%;
+    position: relative;
+    /*display:table-cell*/
+    
+    /*coloca el texto en el centro del circulo*/ 
+/*    display:flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.container {
+    /*coloca el circulo en el centro de la pagina*/
+    /*display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;*/
+    /**/
+  /*  display:block;
+    position:absolute;
+    left:25%;
+    top:25%;
+}
+
+.circular-navigation {
+
+}*/
+
+
+.body {
+    padding:0;
+    margin:0;
+    background:#ffff80;
+    overflow:hidden;
+}
+
+.toggle {
+    background:#ffff80;
+    height:200px;
+    width:200px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    text-align:center;
+    border-radius:50%;
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.menu {
+    background:transparent;
+    height:400px;
+    width:400px;
+    border-radius: 50%;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+    z-index:-1;
+    border:1px solid #000000
+}
+
+.menu :nth-child(1) {
+    /*top:6px;
+    left:45px;*/
+    top:300px;
+    left:300px;
+}
+
+menu a:nth-child(2) {
+    top:24px;
+    left:77px;
+}
+
+menu a:nth-child(3) {
+    top:58px;
+    left:76px;
+}
+
+menu a:nth-child(4) {
+    top:78px;
+    left:42px;
+}
+
+menu a:nth-child(5) {
+    top:58px;
+    left:10px;
+}
+
+menu a:nth-child(6) {
+    top:23px;
+    left:12px;
+}
+
+
+
+
+
+
