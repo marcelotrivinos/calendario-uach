@@ -5,7 +5,7 @@ export default function IndexPage() {
     <Stack
       backgroundColor="cyan.500"
       backgroundRepeat="repeat-x"
-      backgroundImage="url(/logo512.png)"
+      backgroundImage="url(/logo192.png)"
       backgroundPosition="bottom"
       width="100vw"
       height="100vh"

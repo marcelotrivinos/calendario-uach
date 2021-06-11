@@ -17,46 +17,6 @@ const allMonths = [
 ];
 
 export function CircularNavigation() {
-  //constructor(props) {
-  //  super(props);
-  // this.state = {
-  //months: [ "Enero", "Febrero", "Marzo", "Abril",
-  //  "Mayo", "Junio", "Julio", "Agosto",
-  //"Septiembre", "Octubre", "Noviembre",
-  //"Diciembre"],
-  //};
-  // }
-
-  // months = ["Enero", "Febrero", "Marzo", "Abril",
-  //   "Mayo", "Junio", "Julio", "Agosto",
-  // "Septiembre", "Octubre", "Noviembre",
-  //"Diciembre"];
-
-  /*
-    render = () =>  
-    
-        <div className="container">
-            <div id="circle">PRIMER SEMESTRE</div>
-        </div>
-        //<div>PRIMER SEMESTRE</div>
-    */
-  /*
-     listMonths = this.months.map((month, index) =>
-                <ol><li key={ index }>{month}</li></ol>)
-     );*/
-
-  //history = useHistory();
-  const clickCalendario = (i) => {
-    switch (i) {
-      case 1: //history.push({to: '/Info'}); break;
-      case 2:
-      case 3:
-      case 4:
-      case 5:
-      case 6:
-    }
-  };
-
   const { push } = useRouter();
 
   return (
@@ -67,7 +27,7 @@ export function CircularNavigation() {
         <Button
           position="absolute"
           onClick={() => {
-            push("/enero");
+            push("/mes/enero");
           }}
           top="-20px"
         >
@@ -76,7 +36,7 @@ export function CircularNavigation() {
         <Button
           position="absolute"
           onClick={() => {
-            push("/febrero");
+            push("/mes/febrero");
           }}
           top="-20px"
           right="-40px"
@@ -86,34 +46,51 @@ export function CircularNavigation() {
         <Button
           position="absolute"
           onClick={() => {
-            push("/marzo");
+            push("/mes/marzo");
           }}
+          top="40px"
+          right="-40px"
         >
           Marzo
         </Button>
         <Button
           position="absolute"
           onClick={() => {
-            push("/abril");
+            push("/mes/abril");
           }}
+          top="100px"
+          right="-40px"
         >
           Abril
         </Button>
         <Button
           position="absolute"
           onClick={() => {
-            push("/mayo");
+            push("/mes/mayo");
           }}
+          top="160px"
+          right="-40px"
         >
           Mayo
         </Button>
         <Button
           position="absolute"
           onClick={() => {
-            push("/junio");
+            push("/mes/junio");
           }}
+          top="220px"
+          right="-40px"
         >
           Junio
+        </Button>
+        <Button
+          position="absolute"
+          onClick={() => {
+            push("/mes/julio");
+          }}
+          top="220px"
+        >
+          Julio
         </Button>
       </Box>
     </Stack>
