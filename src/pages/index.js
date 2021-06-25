@@ -41,8 +41,6 @@ export default function IndexPage() {
         >
           1º Semestre
         </Button>
-      </Stack>
-      <Stack isInline>
         <Button
           onClick={() => {
             router.push("/segundo_semestre");
