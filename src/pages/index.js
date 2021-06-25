@@ -6,7 +6,7 @@ export default function IndexPage() {
     <Stack
       backgroundColor="rgb(254,214,70)"
       backgroundRepeat="repeat-x"
-      backgroundImage="url(/logo1.png)"
+      backgroundImage="url(/logo1nuevo.png)"
       backgroundSize="110px"
       backgroundPosition="bottom"
       width="100vw"
@@ -14,14 +14,24 @@ export default function IndexPage() {
       alignItems="center"
       justifyContent="space-around"
     >
-      <Stack backgroundImage="url(/logo192.png)" alignItems="center">
+      <Stack
+        backgroundImage="url(/logoletrasprincipal.png)"
+        backgroundSize="210px"
+        alignItems="center"
+      >
         <Heading fontSize="3em">Calendario Acádemico UACh</Heading>
         <Heading border="2px dashed black" padding="0.5em" borderRadius="10px">
           ¿Qué deseas visualizar?
         </Heading>
       </Stack>
       <Stack isInline>
-        <Button>Hoy</Button>
+        <Button
+          onClick={() => {
+            router.push("/hoy");
+          }}
+        >
+          Hoy
+        </Button>
       </Stack>
       <Stack isInline>
         <Button
@@ -31,9 +41,16 @@ export default function IndexPage() {
         >
           1º Semestre
         </Button>
-        <Button>2º Semestre</Button>
       </Stack>
-      <Stack></Stack>
+      <Stack isInline>
+        <Button
+          onClick={() => {
+            router.push("/segundo_semestre");
+          }}
+        >
+          2º Semestre
+        </Button>
+      </Stack>
     </Stack>
   );
 }

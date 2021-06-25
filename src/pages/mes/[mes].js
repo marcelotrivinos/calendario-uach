@@ -9,7 +9,7 @@ export default function PaginaMes() {
     <Stack
       backgroundColor="rgb(254,214,70)"
       backgroundRepeat="repeat-x"
-      backgroundImage="url(/logo1.png)"
+      backgroundImage="url(/logo1nuevo.png)"
       backgroundSize="110px"
       backgroundPosition="bottom"
       width="100vw"

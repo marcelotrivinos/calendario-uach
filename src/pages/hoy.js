@@ -1,4 +1,4 @@
-import { CircularNavigation } from "../Components/Navigation";
+import { Today } from "../Components/Navigation";
 import { Stack } from "@chakra-ui/react";
 export default function IndexPage() {
   return (
@@ -11,7 +11,7 @@ export default function IndexPage() {
       width="100vw"
       height="100vh"
     >
-      <CircularNavigation />
+      <Today />
     </Stack>
   );
 }
