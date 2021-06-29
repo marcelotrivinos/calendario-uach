@@ -1,10 +1,19 @@
 import { Text, Stack } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { Timeline } from "../../Components/Timeline";
+import data from "../../data/ejemplo.json";
 
 export default function PaginaMes() {
   const router = useRouter();
   const { mes } = router.query;
+  const year = new Date().getFullYear();
+  const dataYear = data[year];
+
+  if (!dataYear) return <Text>Año no encontrado</Text>;
+  const dataMonth = dataYear[mes];
+
+  if (!dataMonth) return <Text>Mes no encontrado</Text>;
+
   return (
     <Stack
       backgroundColor="rgb(254,214,70)"
@@ -17,7 +26,7 @@ export default function PaginaMes() {
       alignItems="center"
       justifyContent="space-around"
     >
-      <Timeline mes={mes} />
+      <Timeline mes={mes} data={dataMonth} />
     </Stack>
   );
 }
