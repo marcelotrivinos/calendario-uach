@@ -22,6 +22,7 @@ export default function PaginaMes() {
       backgroundSize="110px"
       backgroundPosition="bottom"
       width="100vw"
+      overflowX="auto"
       height="100vh"
       alignItems="center"
       justifyContent="space-around"
