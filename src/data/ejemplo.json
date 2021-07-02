@@ -1,14 +1,280 @@
 {
   "2021": {
     "enero": [
-      { "inicio": "2020-12-20", "final": "2021-02-25", "informacion": "Hola0" },
-      { "inicio": "2021-01-20", "final": "2021-01-25", "informacion": "Hola" },
-      { "inicio": "2021-01-30", "final": "2021-02-05", "informacion": "Hola2" }
+      {
+        "inicio": "2021-01-14",
+        "final": "2021-02-28",
+        "informacion": "Inicio primer período de matrícula estudiantes de cursos superiores."
+      }
     ],
     "febrero": [
-      { "inicio": "2020-12-20", "final": "2021-02-25", "informacion": "Hola0" },
-      { "inicio": "2021-02-15", "final": "2021-02-20", "informacion": "Hola3" },
-      { "inicio": "2021-02-20", "final": "2021-03-03", "informacion": "Hola4" }
+      {
+        "inicio": "2021-01-14",
+        "final": "2021-02-28",
+        "informacion": "Termino primer período de matrícula estudiantes de cursos superiores."
+      },
+      {
+        "inicio": "2021-02-02",
+        "final": "2021-03-03",
+        "informacion": "Periodo de receso del personal de la Universidad."
+      }
+    ],
+    "marzo": [
+      {
+        "inicio": "2021-03-02",
+        "final": "2021-03-11",
+        "informacion": "Período de matrícula estudiantes Admisión 2021"
+      },
+      {
+        "inicio": "2021-03-03",
+        "final": "2021-03-04",
+        "informacion": "Termino del período de receso del personal e inicio de actividades."
+      },
+      {
+        "inicio": "2021-03-07",
+        "final": "2021-03-15",
+        "informacion": "Segundo período de matrícula estudiantes de cursos superiores."
+      },
+      {
+        "inicio": "2021-03-16",
+        "final": "2021-05-04",
+        "informacion": "Inicio de período para que las Direcciones de Escuela presenten Modificaciones Curriculares Menores al Departamento de Aseguramiento de la Calidad e Innovación Curricular (DACIC), para ser implementadas desde el segundo semestre 2021."
+      },
+      {
+        "inicio": "2021-03-16",
+        "final": "2021-04-28",
+        "informacion": "Primer período de Acreditación Socioeconómica estudiantes nuevos y de cursos superiores, que el MINEDUC informe que deben presentar documentos de respaldo del FUAS, en página www.becasycreditos.cl"
+      },
+      {
+        "inicio": "2021-03-16",
+        "final": "2021-03-30",
+        "informacion": "Bienvenida Institucional y jornadas de inducción por parte de las Escuelas, para estudiantes ingreso 2021."
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-07-29",
+        "informacion": "Inicio de actividades académicas para estudiantes con ingreso 2021 y de cursos superiores."
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-07-27",
+        "informacion": "DACIC - Inicio de actividades para procesos de Innovación Curricular, creación de Carreras/ Programas."
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-04-10",
+        "informacion": "Inicio período de inscripción de asignaturas estudiantes de cursos superiores y modificación de la propuesta, a través de www.uach.cl/alumnos"
+      },
+      {
+        "inicio": "2021-03-02",
+        "final": "2021-04-01",
+        "informacion": "Período de postulación y renovación del Bono de Alimentación, a través de www.uach.cl/alumnos"
+      },
+      {
+        "inicio": "2021-03-02",
+        "final": "2021-04-01",
+        "informacion": "Período de postulación a la Beca de Estímulo Universitario (laborancias) a través de www.uach.cl/alumnos"
+      },
+      {
+        "inicio": "2021-03-02",
+        "final": "2021-04-01",
+        "informacion": "Periodo en que las Unidades solicitan al Departamento de Bienestar Estudiantil los estudiantes laborantes, a través de www.uach.cl/funcionarios"
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-04-01",
+        "informacion": "Último día para que las Escuelas envíen al Departamento de Registro Académico Estudiantil, las convalidaciones de asignaturas de sus estudiantes."
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-04-01",
+        "informacion": "Último día para que las Unidades Académicas, envíen al Departamento de Registro Académico Estudiantil, las solicitudes de alumnos ayudantes."
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-04-01",
+        "informacion": "Ultimo día para que los estudiantes con ingreso 2021 renuncien a la carrera a través de infoalumnos"
+      }
+    ],
+    "abril": [
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-04-10",
+        "informacion": "Termino período de inscripción de asignaturas estudiantes de cursos superiores y modificación de la propuesta, a través de www.uach.cl/alumnos"
+      },
+      {
+        "inicio": "2021-03-31",
+        "final": "2021-05-15",
+        "informacion": "Inicio período para que las unidades académicas presenten asignaturas optativas a la Dirección de Estudios de Pregrado, Registro Académico Estudiantil y la Unidad de Programas Complementarios, para ser implementadas el segundo semestre 2021."
+      },
+      {
+        "inicio": "2021-04-06",
+        "final": "2021-04-20",
+        "informacion": "Periodo promoción e inscripción a talleres extracurriculares de la Dirección de Asuntos Estudiantiles."
+      },
+      {
+        "inicio": "2021-04-13",
+        "final": "2021-07-10",
+        "informacion": "Inicio de talleres Extracurriculares de la Dirección de Asuntos Estudiantiles"
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-04-16",
+        "informacion": "Último día para que estudiantes de otras casas de estudio (nacionales e internacionales), interesados en hacer intercambio estudiantil en nuestra universidad, envíen sus postulaciones a la Oficina de Movilidad Estudiantil (OME) para realizar estudios durante el segundo semestre de 2021."
+      },
+      {
+        "inicio": "2021-04-16",
+        "final": "2021-07-10",
+        "informacion": "Inicio año cultural UACh"
+      },
+      {
+        "inicio": "2021-04-21",
+        "final": "2020-10-22",
+        "informacion": "Resultado de asignación Inicial, de gratuidad, becas de arancel y FSCU para postulantes a FUAS, de octubre y noviembre de 2020."
+      },
+      {
+        "inicio": "2021-04-22",
+        "final": "2021-05-06",
+        "informacion": "Inicio primer periodo de Apelación a resultados de asignación, de Gratuidad Becas Arancel y Fondo Solidario de Crédito Universitario"
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-04-24",
+        "informacion": "Último día para que los docentes responsables actualicen las características de sus asignaturas y publiquen el programa en el sistema académico."
+      },
+      {
+        "inicio": "2021-03-16",
+        "final": "2021-04-28",
+        "informacion": "Publicación de Nivel Socioeconómico FUAS feb-mar (sitio web)"
+      },
+      {
+        "inicio": "2021-04-30",
+        "final": "2021-12-31",
+        "informacion": "Inauguración del Año Académico"
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-05-01",
+        "informacion": "Último día para que los estudiantes de carreras semestrales y anuales ingresen a través de www.uach.cl/alumnos solicitudes de suspensión."
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-05-01",
+        "informacion": "Último día para que estudiantes de cursos superiores postulen a las distintas modalidades de intercambio estudiantil a universidades socias (extranjeras y nacionales), a través de la Oficina de Movilidad Estudiantil (OME), para el segundo semestre de 2021."
+      }
+    ],
+    "mayo": [
+      {
+        "inicio": "2021-05-04",
+        "final": "2021-05-29",
+        "informacion": "Periodo de convocatoria, asignación y postulación al concurso y fondo para Iniciativas Estudiantiles DAE, en el Departamento de Orientación y Actividades Extracurriculares de la Dirección de Asuntos Estudiantiles."
+      },
+      {
+        "inicio": "2021-03-16",
+        "final": "2021-05-04",
+        "informacion": "Último día para que las Direcciones de Escuela presenten Modificaciones Curriculares Menores al Departamento de Aseguramiento de la Calidad e Innovación Curricular (DACIC), para ser implementadas desde el segundo semestre 2021."
+      },
+      {
+        "inicio": "2021-03-31",
+        "final": "2021-05-15",
+        "informacion": "Último día para que las unidades académicas presenten asignaturas optativas a la Dirección de Estudios de Pregrado, Registro Académico Estudiantil y la Unidad de Programas Complementarios, para ser implementadas el segundo semestre 2021."
+      },
+      {
+        "inicio": "2021-05-29",
+        "final": "2021-07-10",
+        "informacion": "Resultados, premiación e inicio de Iniciativas Estudiantiles DAE."
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-05-31",
+        "informacion": "Ultimo día para que los estudiantes de carreras semestrales, ingresen su solicitud de ampliación de plazo de titulación, RAE 2008, en www.uach.cl/alumnos"
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-06-01",
+        "informacion": "Último día para presentar los proyectos de nuevas carreras en Vicerrectoría Académica para su tramitación en cuerpos colegiados."
+      }
+    ],
+    "junio": [
+      {
+        "inicio": "2021-06-08",
+        "final": "2021-06-19",
+        "informacion": "Período para que las Escuelas formulen las solicitudes de asignaturas para el segundo semestre 2021, a las Unidades Académicas."
+      },
+      {
+        "inicio": "2021-06-24",
+        "final": "2021-07-03",
+        "informacion": "Inicio período para que las Unidades Académicas definan la oferta de asignaturas para el segundo semestre 2021."
+      },
+      {
+        "inicio": "2021-04-21",
+        "final": "2021-06-25",
+        "informacion": "Publicación del resultado de asignación inicial y renovación, de gratuidad, becas de arancel y FSCU, para postulantes a FUAS (*)."
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-07-01",
+        "informacion": "Ultimo día para que los estudiantes de carreras semestrales ingresen las solicitudes de anulación de semestre en www.uach.cl/alumnos"
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-07-01",
+        "informacion": "Último día para que los estudiantes de carreras semestrales, anulen dos asignaturas o módulos a través de www.uach.cl/alumnos"
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-07-01",
+        "informacion": "Último día para que los Directores de Escuela, resuelvan las solicitudes de anulación de asignaturas realizadas por los estudiantes."
+      }
+    ],
+    "julio": [
+      {
+        "inicio": "2021-06-24",
+        "final": "2021-07-03",
+        "informacion": "Termino período para que las Unidades Académicas definan la oferta de asignaturas para el segundo semestre 2021."
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-07-10",
+        "informacion": "Último día de clases del primer semestre."
+      },
+      {
+        "inicio": "2021-07-13",
+        "final": "2021-07-24",
+        "informacion": "Período de exámenes finales"
+      },
+      {
+        "inicio": "2021-07-13",
+        "final": "2021-07-24",
+        "informacion": "Período de recepción de solicitudes de Ingreso Especial en la Dirección de Estudios de Pregrado. Se exceptúan de lo anterior los ingresos especiales que, por Reglamento Académico Estudiantil, sólo pueden realizarse en el mes de marzo."
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-07-29",
+        "informacion": "Último día para el ingreso de calificaciones."
+      },
+      {
+        "inicio": "2021-07-19",
+        "final": "2021-08-13",
+        "informacion": "Inicio período de firma del pagaré para estudiantes que se hayan adjudicado el beneficio de arancel del Fondo Solidario de Crédito Universitario.."
+      },
+      {
+        "inicio": "2021-07-27",
+        "final": "2021-07-31",
+        "informacion": "Semana de receso"
+      },
+      {
+        "inicio": "2021-03-23",
+        "final": "2021-07-27",
+        "informacion": "DACIC: Término de actividades para procesos de Innovación Curricular/Creación de Carreras/Programas. Entrega de Informes para procesos de aprobación y coordinación con Registro Académico Estudiantil"
+      }
+    ],
+    "agosto": [
+      {
+        "inicio": "2021-07-19",
+        "final": "2021-08-13",
+        "informacion": "Termino período de firma del pagaré para estudiantes que se hayan adjudicado el beneficio de arancel del Fondo Solidario de Crédito Universitario.."
+      }
     ]
   }
 }
