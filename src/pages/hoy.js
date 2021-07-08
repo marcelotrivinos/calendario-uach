@@ -1,6 +1,6 @@
 import { Today } from "../Components/Navigation";
 import { Text, Stack } from "@chakra-ui/react";
-import data from "../data/ejemplo.json";
+import data from "../data/calendar.json";
 import { Timeline } from "../Components/Timeline";
 const meses = [
   "enero",
