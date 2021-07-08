@@ -1,7 +1,7 @@
 import { Text, Stack } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import { Timeline } from "../../Components/Timeline";
-import data from "../../data/ejemplo.json";
+import data from "../../data/calendar.json";
 
 export default function PaginaMes() {
   const router = useRouter();
