@@ -1,28 +1,74 @@
 import { Stack, Button, Box, HStack, InputLeftElement } from "@chakra-ui/react";
 import { useRouter } from "next/router";
-import { format } from "date-fns";
-import { es } from "date-fns/locale";
 import ScrollContainer from "react-indiana-drag-scroll";
 
-let fechaMasCercana = (fechasDelMes) => {
+let fechaMasCercanaPorTerminar = (fechasDelMes) => {
   let fechaActual = new Date();
-  let fechaMasCercana = -1;
-  let indiceMasCercano = -1;
-  for (let i = 0; i < fechasDelMes.length; i++) {
+  let fechaMasCercana = Math.abs(fechaActual.getTime() - new Date(fechasDelMes[0].final).getTime());
+  let indiceMasCercano = 0;
+  for (let i = 1; i < fechasDelMes.length; i++) {
+    let fechaComparada = new Date(fechasDelMes[i].final).getTime();
+
     if (
       Math.abs(
-        fechaActual.getTime() - new Date(fechasDelMes[i].final).getTime()
+        fechaActual.getTime() - fechaComparada
       ) < fechaMasCercana
     ) {
       fechaMasCercana = Math.abs(
-        fechaActual.getTime() - new Date(fechasDelMes[i].final).getTime()
+        fechaActual.getTime() - fechaComparada
       );
       indiceMasCercano = i;
     }
   }
-  console.log(indiceMasCercano);
   return indiceMasCercano;
 };
+
+let fechaMasCercanaPorIniciar = (fechasDelMes) => {
+  let fechaActual = new Date();
+  let fechaMasCercana = Math.abs(fechaActual.getTime() - new Date(fechasDelMes[0].final).getTime());
+  let indiceMasCercano = 0;
+  for (let i = 1; i < fechasDelMes.length; i++) {
+    let fechaComparada = new Date(fechasDelMes[i].inicio).getTime();
+    let fechaFinalDeComparada = new Date(fechasDelMes[i].final).getTime()
+
+    if (
+      (Math.abs(
+        fechaActual.getTime() - fechaComparada
+      ) < fechaMasCercana) &&
+      (fechaComparada != fechaFinalDeComparada)) {
+      fechaMasCercana = Math.abs(
+        fechaActual.getTime() - fechaComparada
+      );
+      indiceMasCercano = i;
+    }
+  }
+  return indiceMasCercano;
+};
+
+let cantDias = (fecha1, fecha2) => { 
+  let dif = (fecha1.getTime() - fecha2.getTime())
+  let diaActual = (new Date).getDay()
+  let diaPlazo = (new Date(dif)).getDay()
+  return (diaActual - diaPlazo)
+}
+
+let mensaje1 = (dias) => {
+  if(dias == 1) {
+    return "¡QUEDA " + dias + " DÍA!"
+  }
+  else {
+    return "¡QUEDAN " + dias + " DÍAS!"
+  }
+}
+
+let mensaje2 = (dias) => {
+  if(dias == 1) {
+    return "¡Empieza en " + dias + " día!"
+  }
+  else {
+    return "¡Empieza en " + dias + " días!"
+  }
+}
 
 export const FinishSoon = ({ mes, data }) => {
   let fechaActual = new Date();
@@ -63,7 +109,7 @@ export const FinishSoon = ({ mes, data }) => {
                 borderRadius="10px"
                 padding="0.5em"
               >
-                {fechaMasCercana(data)}
+                { data[fechaMasCercanaPorTerminar(data)].informacion }
               </Box>
               <Box
                 background="red.400"
@@ -72,7 +118,7 @@ export const FinishSoon = ({ mes, data }) => {
                 borderRadius="10px"
                 padding="0.5em"
               >
-                {"¡QUEDAN " + " DÍAS!"}
+                {mensaje1(cantDias(new Date(data[fechaMasCercanaPorTerminar(data)].final), fechaActual)) }
               </Box>
             </HStack>
             <HStack align="center">
@@ -83,7 +129,7 @@ export const FinishSoon = ({ mes, data }) => {
                 borderRadius="10px"
                 padding="0.5em"
               >
-                {}
+                {data[fechaMasCercanaPorIniciar(data)].informacion}
               </Box>
               <Box
                 background="blue.400"
@@ -92,7 +138,7 @@ export const FinishSoon = ({ mes, data }) => {
                 borderRadius="10px"
                 padding="0.5em"
               >
-                {"¡Empieza en " + " días"}
+                {mensaje2(cantDias(new Date(data[fechaMasCercanaPorTerminar(data)].inicio), fechaActual))}
               </Box>
             </HStack>
           </Stack>
