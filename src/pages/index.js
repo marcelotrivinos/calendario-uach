@@ -27,7 +27,7 @@ export default function IndexPage() {
       <Stack isInline>
         <Button
           onClick={() => {
-            router.push("/hoy");
+            router.push("/fecha_proxima");
           }}
         >
           Hoy

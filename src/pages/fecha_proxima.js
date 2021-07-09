@@ -1,3 +1,4 @@
+import { FinishSoon } from "../Components/finishSoon";
 import { Text, Stack } from "@chakra-ui/react";
 import data from "../data/calendar.json";
 import { Timeline } from "../Components/Timeline";
@@ -39,7 +40,7 @@ export default function IndexPage() {
       alignItems="center"
       justifyContent="space-around"
     >
-      <Timeline mes={mes} data={dataMonth} />
+      <FinishSoon mes={mes} data={dataMonth} />
     </Stack>
   );
 }
