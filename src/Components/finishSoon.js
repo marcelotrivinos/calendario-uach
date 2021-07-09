@@ -83,7 +83,7 @@ export const FinishSoon = ({ mes, data }) => {
               {"HOY es " + fechaActual.getDate() + " de " + mes}
             </Box>
             <Button
-              background="green.400"
+              background="green.300"
               borderWidth="5px"
               borderColor="green.500"
               onClick={() => {

@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { Stack, Button, Box, HStack, InputLeftElement } from "@chakra-ui/react";
+import { Stack, Box, HStack } from "@chakra-ui/react";
 import { format } from "date-fns";
 import { es } from "date-fns/locale";
 import ScrollContainer from "react-indiana-drag-scroll";
@@ -23,10 +22,22 @@ export const Timeline = ({ mes, data }) => {
                   minWidth="250px"
                   padding="50px"
                 >
-                  <Box background={ colorUsado } borderWidth="5px" borderColor={ colorUsadoBorde } borderRadius="10px" padding="0.5em">
+                  <Box
+                    background={colorUsado}
+                    borderWidth="5px"
+                    borderColor={colorUsadoBorde}
+                    borderRadius="10px"
+                    padding="0.5em"
+                  >
                     {informacion}
                   </Box>
-                  <Box background={ colorUsado } borderWidth="5px" borderColor={ colorUsadoBorde } borderRadius="10px" padding="0.5em">
+                  <Box
+                    background={colorUsado}
+                    borderWidth="5px"
+                    borderColor={colorUsadoBorde}
+                    borderRadius="10px"
+                    padding="0.5em"
+                  >
                     {format(new Date(inicio), "d MMMM", { locale: es })}
                   </Box>
                 </Stack>
@@ -39,13 +50,19 @@ export const Timeline = ({ mes, data }) => {
                 minWidth="250px"
                 paddingX="30px"
               >
-                <Box background={ colorUsado } borderWidth="5px" borderColor={ colorUsadoBorde } borderRadius="10px" padding="0.5em">
+                <Box
+                  background={colorUsado}
+                  borderWidth="5px"
+                  borderColor={colorUsadoBorde}
+                  borderRadius="10px"
+                  padding="0.5em"
+                >
                   {informacion}
                 </Box>
                 <Box
-                  background={ colorUsado }
+                  background={colorUsado}
                   borderWidth="5px"
-                  borderColor={ colorUsadoBorde }
+                  borderColor={colorUsadoBorde}
                   textAlign="center"
                   borderRadius="10px"
                   padding="0.5em"
