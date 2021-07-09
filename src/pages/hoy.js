@@ -14,6 +14,7 @@ const meses = [
   "octubre",
   "noviembre",
   "diciembre",
+  "enero2022",
 ];
 export default function IndexPage() {
   const mesIndex = new Date().getMonth();

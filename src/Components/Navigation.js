@@ -1,21 +1,5 @@
-import { useState } from "react";
 import { Stack, Button, Box } from "@chakra-ui/react";
 import { useRouter } from "next/router";
-const allMonths = [
-  "Enero",
-  "Febrero",
-  "Marzo",
-  "Abril",
-  "Mayo",
-  "Junio",
-  "Julio",
-  "Agosto",
-  "Septiembre",
-  "Octubre",
-  "Noviembre",
-  "Diciembre",
-  "Enero 2022",
-];
 
 export function CircularNavigation() {
   const { push } = useRouter();
@@ -23,73 +7,95 @@ export function CircularNavigation() {
   return (
     <Stack alignItems="center" justifyContent="center">
       <Box className="toggle" id="toggle">
-        <i>"PRIMER SEMESTRE"</i>
+        <i>PRIMER SEMESTRE</i>
 
         <Button
+          background="green.300"
+          borderWidth="5px"
+          borderColor="green.500"
           position="absolute"
           onClick={() => {
             push("/mes/enero");
           }}
-          top="-20px"
+          top="-42px"
         >
           Enero
         </Button>
         <Button
+          background="green.300"
+          borderWidth="5px"
+          borderColor="green.500"
           position="absolute"
           onClick={() => {
             push("/mes/febrero");
           }}
-          top="-20px"
-          right="-40px"
+          top="10px"
+          right="-85px"
         >
           Febrero
         </Button>
         <Button
+          background="green.300"
+          borderWidth="5px"
+          borderColor="green.500"
           position="absolute"
           onClick={() => {
             push("/mes/marzo");
           }}
-          top="40px"
-          right="-40px"
+          top="102px"
+          right="-90px"
         >
           Marzo
         </Button>
         <Button
+          background="green.300"
+          borderWidth="5px"
+          borderColor="green.500"
           position="absolute"
           onClick={() => {
             push("/mes/abril");
           }}
-          top="100px"
-          right="-40px"
+          top="185px"
+          right="-30px"
         >
           Abril
         </Button>
         <Button
+          background="green.300"
+          borderWidth="5px"
+          borderColor="green.500"
           position="absolute"
           onClick={() => {
             push("/mes/mayo");
           }}
-          top="160px"
-          right="-40px"
+          top="185px"
+          right="150px"
         >
           Mayo
         </Button>
         <Button
+          background="green.300"
+          borderWidth="5px"
+          borderColor="green.500"
           position="absolute"
           onClick={() => {
             push("/mes/junio");
           }}
-          top="220px"
-          right="-40px"
+          top="102px"
+          right="200px"
         >
           Junio
         </Button>
         <Button
+          background="green.300"
+          borderWidth="5px"
+          borderColor="green.500"
           position="absolute"
           onClick={() => {
             push("/mes/julio");
           }}
-          top="220px"
+          top="10px"
+          right="185px"
         >
           Julio
         </Button>
@@ -104,85 +110,83 @@ export function CircularNavigation2() {
   return (
     <Stack alignItems="center" justifyContent="center">
       <Box className="toggle" id="toggle">
-        <i>"SEGUNDO SEMESTRE"</i>
+        <i>SEGUNDO SEMESTRE</i>
 
         <Button
+          background="green.300"
+          borderWidth="5px"
+          borderColor="green.500"
           position="absolute"
           onClick={() => {
             push("/mes/agosto");
           }}
-          top="-20px"
+          top="-42px"
         >
           Agosto
         </Button>
         <Button
+          background="green.300"
+          borderWidth="5px"
+          borderColor="green.500"
           position="absolute"
           onClick={() => {
             push("/mes/septiembre");
           }}
-          top="10px"
-          right="-80px"
+          top="20px"
+          right="-120px"
         >
           Septiembre
         </Button>
         <Button
+          background="green.300"
+          borderWidth="5px"
+          borderColor="green.500"
           position="absolute"
           onClick={() => {
             push("/mes/octubre");
           }}
-          top="60px"
-          right="-80px"
+          top="130px"
+          right="-100px"
         >
           Octubre
         </Button>
         <Button
+          background="green.300"
+          borderWidth="5px"
+          borderColor="green.500"
           position="absolute"
           onClick={() => {
             push("/mes/noviembre");
           }}
-          top="110px"
-          right="-90px"
+          top="202px"
         >
           Noviembre
         </Button>
         <Button
+          background="green.300"
+          borderWidth="5px"
+          borderColor="green.500"
           position="absolute"
           onClick={() => {
             push("/mes/diciembre");
           }}
-          top="160px"
-          right="-80px"
+          top="130px"
+          right="195"
         >
           Diciembre
         </Button>
         <Button
+          background="green.300"
+          borderWidth="5px"
+          borderColor="green.500"
           position="absolute"
           onClick={() => {
             push("/mes/enero2022");
           }}
-          top="200px"
+          top="20px"
+          right="190px"
         >
           Enero 2022
-        </Button>
-      </Box>
-    </Stack>
-  );
-}
-
-export function Today() {
-  const { push } = useRouter();
-  return (
-    <Stack alignItems="center" justifyContent="center">
-      <Box className="toggle" id="toggle">
-        <i>"Plazo más próximo a terminar o comenzar"</i>
-        <Button
-          position="absolute"
-          onClick={() => {
-            push("/mes/agosto"); //deberia llevarme al mes actual
-          }}
-          top="-20px"
-        >
-          ¡Click aquí para ir al mes!
         </Button>
       </Box>
     </Stack>
